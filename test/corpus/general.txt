@@ -1,0 +1,55 @@
+==================
+general
+==================
+
+.ORIG 0x3000
+
+    lea r0, Hw
+    puts
+
+    halt
+
+Hw .STRINGZ "Hello World"
+
+.END
+
+---
+
+(document
+    (line
+        (directive
+            (period)
+            (directive_name)
+            (integer)
+        )
+    )
+    (line
+        (instruction
+            (mnemonic)
+            (operand (register))
+            (comma)
+            (operand (label))
+        )
+    )
+    (line
+        (trap_alias)
+    )
+    (line
+        (trap_alias)
+    )
+    (line
+        (label_definition (label))
+        (directive
+            (period)
+            (directive_name)
+            (string)
+        )
+    )
+    (line
+        (directive
+            (period)
+            (directive_name)
+        )
+    )
+)
+
