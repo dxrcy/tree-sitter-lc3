@@ -81,6 +81,7 @@ module.exports = grammar({
             // TODO: Make better
             /[-+]?0?x[-+]?[0-9a-zA-Z_]+/,
             /#?[-+]?[0-9_]+/,
+            /'.+'/,
         ),
 
         string: $ => /".*"/,
