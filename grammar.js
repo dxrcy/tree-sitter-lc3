@@ -68,7 +68,7 @@ module.exports = grammar({
             "add", "and", "not", "jmp", "ret", "jsr", "jsrr",
             "lea", "ld", "st", "ldi", "sti", "ldr", "str",
             "br", "brn", "brz", "brp", "brnz", "brzp", "brnp", "brnzp",
-            "trap", "push", "pop", "call", "rets", "rti",
+            "trap", "rti",
         ),
 
         label: $ => /[A-Z_][a-z0-9_]*/,

@@ -308,22 +308,6 @@
         },
         {
           "type": "STRING",
-          "value": "push"
-        },
-        {
-          "type": "STRING",
-          "value": "pop"
-        },
-        {
-          "type": "STRING",
-          "value": "call"
-        },
-        {
-          "type": "STRING",
-          "value": "rets"
-        },
-        {
-          "type": "STRING",
           "value": "rti"
         }
       ]

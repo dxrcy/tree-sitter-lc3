@@ -197,10 +197,6 @@
     "named": false
   },
   {
-    "type": "call",
-    "named": false
-  },
-  {
     "type": "colon",
     "named": true
   },
@@ -257,23 +253,11 @@
     "named": true
   },
   {
-    "type": "pop",
-    "named": false
-  },
-  {
-    "type": "push",
-    "named": false
-  },
-  {
     "type": "register",
     "named": true
   },
   {
     "type": "ret",
-    "named": false
-  },
-  {
-    "type": "rets",
     "named": false
   },
   {
